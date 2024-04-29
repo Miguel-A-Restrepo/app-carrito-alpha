@@ -1,0 +1,122 @@
+<html>
+
+<!-- para el listado de compras -->
+
+<body>
+    <div class="contact-1 py-4 md:py-2">
+        
+        <div class="container mx-auto px-4">
+            <div class="xl:flex -mx-4">
+                <div class="xl:w-11/12 xl:mx-auto px-4">
+
+                    <div class="xl:w mb-4">
+                        <h1 class="text-3xl text-medium mb-4">Aquí tiene la tecnología a un clic y a los mejores precios
+                        </h1>
+                        <p class="text-xl mb-2">Por favor, pulse clic sobre los productos que desee agregar al carrito
+                            de compras.
+                        </p>
+                    </div>
+
+                    <div class="carousel shadow-2xl bg-white">
+                        
+                        <div class="carousel-inner overflow-hidden w-full">
+                          <!--Slide 1-->
+                            <input class="carousel-open" type="radio" id="carousel-1" name="carousel" aria-hidden="true" hidden="" checked="checked">
+                            <div class="carousel-item absolute opacity-0">
+                                <img
+                                  src="./resources/assets/images/ida-chile.webp"
+                                  alt=""
+                                  class="mx-auto object-contain"
+                                />
+                            </div>
+                            <label for="carousel-3" class="prev control-1 w-10 h-10 relative cursor-pointer hidden text-3xl font-bold text-black hover:text-white rounded-full bg-white hover:bg-teal-700 leading-tight text-center z-10 ml-10 float-left">‹</label>
+                            <label for="carousel-2" class="next control-1 w-10 h-10 relative cursor-pointer hidden text-3xl font-bold text-black hover:text-white rounded-full bg-white hover:bg-teal-700 leading-tight text-center z-10 mr-10 float-right">›</label>
+                            
+                            <!--Slide 2-->
+                            <input class="carousel-open" type="radio" id="carousel-2" name="carousel" aria-hidden="true" hidden="">
+                            <div class="carousel-item absolute opacity-0">
+                                <img
+                                src="./resources/assets/images/hotel-presidente.jpg"
+                                alt=""
+                                class="mx-auto object-contain"
+                              />
+                            </div>
+                            <label for="carousel-1" class="prev control-2 w-10 h-10 relative cursor-pointer hidden text-3xl font-bold text-black hover:text-white rounded-full bg-white hover:bg-teal-700 leading-tight text-center z-10 ml-10 float-left">‹</label>
+                            <label for="carousel-3" class="next control-2 w-10 h-10 relative cursor-pointer hidden text-3xl font-bold text-black hover:text-white rounded-full bg-white hover:bg-teal-700 leading-tight text-center z-10 mr-10 float-right">›</label> 
+                            
+                            <!--Slide 3-->
+                            <input class="carousel-open" type="radio" id="carousel-3" name="carousel" aria-hidden="true" hidden="">
+                            <div class="carousel-item absolute opacity-0">
+                                <img
+                                src="./resources/assets/images/rentCar.png"
+                                alt=""
+                                class="mx-auto object-contain"
+                              />
+                            </div>
+                            <label for="carousel-2" class="prev control-3 w-10 h-10 relative cursor-pointer hidden text-3xl font-bold text-black hover:text-white rounded-full bg-white hover:bg-teal-700 leading-tight text-center z-10 ml-10 float-left">‹</label>
+                            <label for="carousel-1" class="next control-3 w-10 h-10 relative cursor-pointer hidden text-3xl font-bold text-black hover:text-white rounded-full bg-white hover:bg-teal-700 leading-tight text-center z-10 mr-10 float-right">›</label> 
+                           
+                            <!-- Add additional indicators for each slide-->
+                            <ol class="carousel-indicators z-0">
+                                <li class="inline-block mr-3">
+                                    <label for="carousel-1" class="carousel-bullet cursor-pointer block text-4xl text-gray-400 hover:text-teal-700">•</label>
+                                </li>
+                                <li class="inline-block mr-3">
+                                    <label for="carousel-2" class="carousel-bullet cursor-pointer block text-4xl text-gray-400 hover:text-teal-700">•</label>
+                                </li>
+                                <li class="inline-block mr-3">
+                                    <label for="carousel-3" class="carousel-bullet cursor-pointer block text-4xl text-gray-400 hover:text-teal-700">•</label>
+                                </li>
+                            </ol>
+                            
+                        </div>
+                    </div>
+
+                    <div class="md:flex md:-mx-4 mt-2 md:mt-5 pt-3 pb-24" id="test">
+
+                        <div id="carrito-disponibles" class="md:w-1/2 md:px-4 bg-gray-200">
+                            <!-- aquí se insertan las fichas de los productos -->
+                        </div>
+
+
+                        <div class="md:w-1/2 md:px-4 mt-10 md:mt-0 bg-gray-200">
+
+                            <div class="container mx-auto p-3 max-w-screen-lg">
+
+                                <div id = "card" class="bg-white rounded shadow p-8">
+
+                                    
+
+                                    <!-- Order Summary  -->
+                                    <div id="carrito-elegidos">
+                                        <h3 class="text-xl mt-4 font-bold">Orden de compra</h3>
+                                        <button id="vaciar-carrito" class="text-red-700 hover:bg-red-100 px-2">Vaciar carrito</button>
+                                        <!--  aquí se insertan los productos seleccionados   -->
+                                    </div>
+
+                                    <button id="carrito-btnpagar"
+                                        class="px-2 py-2 bg-teal-600 text-white w-full mt-3 rounded shadow font-bold hover:bg-teal-800">
+                                        PROCEDER CON EL PAGO
+                                    </button>
+                                </div>
+
+                                <div id="carrito-confirmacion"
+                                    class="flex-column justify-between mt-8 flex-wrap lg:justify-center">
+                                    <!-- Aquí se confirma el pago y se indica el número de orden de envío -->
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+    </div>
+</body>
+
+</html>

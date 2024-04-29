@@ -1,0 +1,21 @@
+{
+  "name": "app-sales",
+  "version": "0.1.0",
+  "description": "Demostración inicial de programación web dinámica",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "JavaScript",
+    "Normalize.css",
+    "HTML"
+  ],
+  "author": "Alpha Team-Demo",
+  "license": "ISC",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.13.1",
+    "normalize.css": "^8.0.1",
+    "tailwindcss": "^1.4.6"
+  }
+}

@@ -1,0 +1,38 @@
+[
+  {
+    "id": "hopre",
+    "referencia": "Hotel presidente",
+    "disponible": 30,
+    "precio": 120000,
+    "resumen": "Incluye piscina y desayuno",
+    "detalles": "*valor por dia",
+    "imagen": "hotel-presidente.jpg"
+  },
+  {
+    "id": "ida",
+    "referencia": "Vuelo ida a Chile",
+    "disponible": 30,
+    "precio": 567000,
+    "resumen": "Servicios aparte",
+    "detalles": "*valor solo ida",
+    "imagen": "ida-chile.webp"
+  },
+  {
+    "id": "vuelta",
+    "referencia": "Vuelo vuelta a Cartagena",
+    "disponible": 30,
+    "precio": 475000,
+    "resumen": "Servicios aparte",
+    "detalles": "*valor solo vuelta",
+    "imagen": "vuelta-cartagena.webp"
+  },
+  {
+    "id": "cart",
+    "referencia": "Renta de auto",
+    "disponible": 30,
+    "precio": 1000000,
+    "resumen": "Alquila un auto para desplazarte libremente",
+    "detalles": "*valor por semana",
+    "imagen": "rentCar.png"
+  }
+]

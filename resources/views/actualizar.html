@@ -1,0 +1,76 @@
+<html>
+  <body
+    class="h-20 overflow-hidden flex items-center justify-center"
+    style="background: #edf2f7;"
+  >
+    <!-- component -->
+    <div class="bg-gray-200 mx-auto mt-12 min-h-48 pt-2 mb-32">
+      <div class="container mx-auto">
+        <div class="inputs w-full max-w-2xl p-6 mx-auto">
+          <h1 class="text-3xl text-medium">Actualizar datos</h1>
+          <form class="mt-6 border-t border-gray-400 pt-4">
+            <div class="flex items-center justify-between mt-4">
+              <div class="w-full md:w-1/2 mb-6">
+                <label class="text-grey-darker text-sm">
+                  Nombres
+                </label>
+                <input
+                  class="appearance-none block w-full bg-white text-gray-700 text-sm border border-gray-400 shadow-inner rounded-md py-3 px-4 leading-tight focus:outline-none focus:border-gray-500"
+                  type="text"
+                  required
+                />
+              </div>
+              <div class="w-full md:w-1/2 px-3 mb-6">
+                <label class="text-grey-darker text-sm">
+                  Apellidos
+                </label>
+                <input
+                  class="appearance-none block w-full bg-white text-gray-700 text-sm border border-gray-400 shadow-inner rounded-md py-3 px-4 leading-tight focus:outline-none focus:border-gray-500"
+                  type="text"
+                  required
+                />
+              </div>
+            </div>
+
+            <div class="flex flex-wrap -mx-3 mb-6">
+              <div class="w-full md:w-full px-3 mb-6">
+                <label class="text-grey-darker text-sm" for="grid-text-1"
+                  >Nombre de usuario</label
+                >
+                <input
+                  class="appearance-none block w-full bg-white text-gray-700 text-sm border border-gray-400 shadow-inner rounded-md py-3 px-4 leading-tight focus:outline-none focus:border-gray-500"
+                  id="grid-text-1"
+                  type="text"
+                  required
+                />
+              </div>
+
+              <div class="w-full md:w-full px-3 mb-6">
+                <label class="text-grey-darker text-sm" for="grid-text-1"
+                  >Correo electrónico</label
+                >
+                <input
+                  class="appearance-none block w-full bg-white text-gray-700 text-sm border border-gray-400 shadow-inner rounded-md py-3 px-4 leading-tight focus:outline-none focus:border-gray-500"
+                  id="grid-text-1"
+                  type="email"
+                  required
+                />
+              </div>
+
+              <div class="personal w-full border-t border-gray-400 pt-4">
+                <div class="flex justify-end">
+                  <button
+                    class="px-2 py-2 bg-teal-600 text-white mt-3 rounded shadow font-bold hover:bg-teal-800"
+                    type="submit"
+                  >
+                    GUARDAR LOS CAMBIOS
+                  </button>
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

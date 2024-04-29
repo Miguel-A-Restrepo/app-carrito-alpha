@@ -1,0 +1,65 @@
+body {
+  font-family: "Rubik", sans-serif;
+}
+
+#menu-toggle:checked + #menu {
+  /* ver seudoclase :checked */
+  display: block;
+}
+
+.dropdown:hover .dropdown-menu,   /* ver seudoclase :hover */
+  .dropdown:active .dropdown-menu {
+  /* ver seudoclase :active */
+  display: block;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+.carousel-open:checked + .carousel-item {
+  position: static;
+  opacity: 100;
+}
+
+#carousel-1:checked ~ .control-1,
+#carousel-2:checked ~ .control-2,
+#carousel-3:checked ~ .control-3 {
+  display: inline-block;
+}
+.carousel-indicators {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  bottom: 2%;
+  left: 0;
+  right: 0;
+  text-align: center;
+  z-index: 10;
+}
+#carousel-1:checked
+  ~ .control-1
+  ~ .carousel-indicators
+  li:nth-child(1)
+  .carousel-bullet,
+#carousel-2:checked
+  ~ .control-2
+  ~ .carousel-indicators
+  li:nth-child(2)
+  .carousel-bullet,
+#carousel-3:checked
+  ~ .control-3
+  ~ .carousel-indicators
+  li:nth-child(3)
+  .carousel-bullet {
+  color: teal; /*Set to match the Tailwind colour you want the active one to be */
+}
